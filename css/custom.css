@@ -1,0 +1,209 @@
+/*{
+	border: 1px solid black;
+}*/
+/*-----------------------------FONTS---------------------------*/
+h1{
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px 0px;
+	line-height: 48px;
+	font-weight: bold;
+}
+h2{
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px 0px;
+	line-height: 36px;
+	font-weight: 200;
+}
+h3{
+	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px 0px;
+	line-height: 32px;
+	font-weight: 200;
+	color: firebrick;
+}
+h4{
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px 0px;
+	line-height: 28px;
+	font-weight: 500;
+	color: crimson;
+}
+h5{
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color:rgba(0,0,0,0.6);
+}
+p{
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+}
+/*-----------------------------BUTTONS---------------------------*/
+.btn_red{
+	background-color: crimson;
+	color: white;
+	border-radius: 15px;
+	font-size: 17px;
+	font-weight: 200;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border: none;
+}
+.btn_red:hover{
+	background-color: firebrick;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.btn_green{
+	background-color: #9cd537;
+	color: white;
+	border-radius: 15px;
+	font-size: 17px;
+	font-weight: 200;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border: none;
+}
+.btn_green:hover{
+	background-color: #a0ce97;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.btn_contact_form{
+	color: white;
+    background-color: #9cd537;
+    border-radius: 5px;
+    border: none;
+    height: 3em;
+    width: 35%;
+    margin-bottom: 35px;
+}
+.btn_contact_form:hover{
+	background-color: #a0ce97;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+/*-----------------------------GENERAL CLASSES------------------*/
+.active_text{
+	font-weight: bold;
+}
+.link{
+	color: crimson;
+}
+.link:hover{
+	color: firebrick;
+	text-decoration: none;
+	text-transform: none;
+}
+.space{
+	height:50px;
+}
+.xs_space{
+	height: 15px;
+}
+/*-----------------------------HEADER---------------------------*/
+.header{
+    min-height: 80px;
+    box-shadow: 0px 1px 30px crimson; 
+}
+.header .logo{
+	float: left;
+}
+.header .logo img{
+	height: 70px;
+	padding: 2% 0;
+}
+.header .main_menu{
+	padding: 20px 0;
+	float: right;
+}
+.header .main_menu a{
+	color: firebrick;
+	font-size: 25px;
+	padding-right: 30px;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: middle;
+}
+.hp_banner{
+	min-height: 350px;
+	background-image: url("C:/Users/Ewa/Desktop/na ratunek website/nowa_strona/img/body_2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+.hp_banner h1{
+	padding-top: 50px;
+}
+
+/*-----------------------------CONTENT---------------------------*/
+.cooperation{
+	background-image: url("C:/Users/Ewa/Desktop/na ratunek website/nowa_strona/img/eu.jpg");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	height: 75px;
+}
+/*-----------------------------O-FIRMIE--------------------------*/
+.pg_banner{
+	min-height: 20px;
+	background-color: #9cd537;
+}
+.pg_banner h2{
+	color: white;
+	text-align: center;
+}
+.explanation{
+	padding: 30px 0;
+}
+.explanation .section_2.funder_name h3{
+	text-align: center;
+
+}
+.explanation .section_3.funder_photo img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 10%;
+    box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+}
+.explanation .section_3.certificate img{
+	width: 100%;
+	height: auto;
+}
+.explanation .section_3.funder_descriprtion .signature img{
+	max-width: 25%;
+}
+/*-----------------------------GALERIA--------------------------*/
+.gallery .section_1 img{
+	width:100%;
+}
+.gallery.section_2{
+	padding: 0;
+}
+.gallery.section_2 img{
+	width:100%;
+	cursor:pointer;
+	display: inline-block;
+}
+/*-----------------------------FOOTER---------------------------*/
+footer .section_1{
+	border-bottom: 1px crimson solid;
+    border-top: 1px crimson solid;
+    min-height: 180px;
+    padding: 20px 0px;
+}
+footer .section_1 i{
+    color: white;
+    padding: 5px;
+    background-color: #4267b2;
+    margin-right: 10px;
+}
+footer .section_2 h6{
+	font-size: 12px;
+	text-align: center;
+	color: gray;
+}
+footer .section_2 .fa{
+	color: firebrick;
+}
