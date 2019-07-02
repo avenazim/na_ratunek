@@ -1,6 +1,3 @@
-/*{
-	border: 1px solid black;
-}*/
 /*-----------------------------FONTS---------------------------*/
 h1{
 	font-size: 36px;
@@ -24,13 +21,13 @@ h3{
 	font-weight: 200;
 	color: firebrick;
 }
-h4{
-	font-size: 22px;
-	font-family: 'Raleway', sans-serif;
-	padding: 20px 0px;
-	line-height: 28px;
-	font-weight: 500;
-	color: crimson;
+h4 {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0px;
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
 }
 h5{
 	font-size: 18px;
@@ -38,7 +35,7 @@ h5{
 	font-weight: 300;
 	color:rgba(0,0,0,0.6);
 }
-p{
+p, li{
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
 }
@@ -68,20 +65,21 @@ p{
 	border: none;
 }
 .btn_green:hover{
-	background-color: #a0ce97;
+	background-color: #30c52c;
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
-.btn_contact_form{
-	color: white;
-    background-color: #9cd537;
+.btn_contact_form {
+    color: #a90000;
+    background-color: white;
     border-radius: 5px;
     border: none;
     height: 3em;
+    font-weight: 700;
     width: 35%;
     margin-bottom: 35px;
 }
 .btn_contact_form:hover{
-	background-color: #a0ce97;
+	color: lightsalmon;
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
 /*-----------------------------GENERAL CLASSES------------------*/
@@ -102,6 +100,9 @@ p{
 .xs_space{
 	height: 15px;
 }
+.fa-angle-left{
+	color: firebrick;
+}
 /*-----------------------------HEADER---------------------------*/
 .header{
     min-height: 80px;
@@ -115,12 +116,12 @@ p{
 	padding: 2% 0;
 }
 .header .main_menu{
-	padding: 20px 0;
+	padding: 28px 0;
 	float: right;
 }
 .header .main_menu a{
 	color: firebrick;
-	font-size: 25px;
+	font-size: 17px;
 	padding-right: 30px;
 	text-decoration: none;
 	text-transform: none;
@@ -147,7 +148,7 @@ p{
 /*-----------------------------O-FIRMIE--------------------------*/
 .pg_banner{
 	min-height: 20px;
-	background-color: #9cd537;
+	background: linear-gradient(77deg, rgba(244,243,243,1) 0%, rgba(195,13,13,1) 100%);
 }
 .pg_banner h2{
 	color: white;
@@ -174,6 +175,59 @@ p{
 .explanation .section_3.funder_descriprtion .signature img{
 	max-width: 25%;
 }
+.certificate img {
+    margin: 0 auto;
+    display: inherit;
+}
+/*-----------------------------OFERTA--------------------------*/
+.offer {
+    min-height: 500px;
+    padding: 15px;
+    width: 45%;
+    margin: 0% 2%;
+}
+.offer ul {
+    padding: 0px;
+}
+.offer li {
+    list-style: none;
+}
+.offer a {
+    color: lightslategray;
+    cursor: pointer;
+    line-height: 1.7em;
+}
+.offer a:hover {
+    color: crimson;
+    text-decoration-line: none;
+}
+.offer.basic_offer{
+	border-radius: 15px;
+    box-shadow: 0px 0px 15px crimson;
+    border: none;
+}
+.offer.advanced_offer{
+	border-radius: 15px;
+    box-shadow: 0px 0px 15px crimson;
+    border: none;
+}
+/*------------------------POJEDYŃCZA----OFERTA------------------*/
+.offer_option li:before {
+	content: "\2665";
+	color: firebrick;
+	padding: 0 5px;
+}
+.offer_option .no_dot:before {
+	content: " ";
+}
+.offer_option ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.offer_option li.no_dot i {
+    color: #9cd537;
+    width: 2.5em;
+}
 /*-----------------------------GALERIA--------------------------*/
 .gallery .section_1 img{
 	width:100%;
@@ -186,18 +240,23 @@ p{
 	cursor:pointer;
 	display: inline-block;
 }
+img.icons {
+    border-radius: 15px;
+}
 /*-----------------------------FOOTER---------------------------*/
-footer .section_1{
-	border-bottom: 1px crimson solid;
-    border-top: 1px crimson solid;
+footer .section_1 {
     min-height: 180px;
     padding: 20px 0px;
+    background: linear-gradient(77deg, rgba(195,13,13,1) 0%, rgba(244,243,243,1) 42%, rgba(195,13,13,1) 100%);
 }
-footer .section_1 i{
+footer .section_1 i {
     color: white;
     padding: 5px;
-    background-color: #4267b2;
+    background-color: crimson;
     margin-right: 10px;
+}
+footer .section_1 p{
+    color: white;
 }
 footer .section_2 h6{
 	font-size: 12px;
