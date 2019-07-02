@@ -132,7 +132,7 @@ p, li{
 	background-image: url("C:/Users/Ewa/Desktop/na ratunek website/nowa_strona/img/body_2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-x: right;
+	background-position-x: center;
 }
 .hp_banner h1{
 	padding-top: 50px;
@@ -159,7 +159,6 @@ p, li{
 }
 .explanation .section_2.funder_name h3{
 	text-align: center;
-
 }
 .explanation .section_3.funder_photo img{
     width: 100%;
@@ -265,4 +264,8 @@ footer .section_2 h6{
 }
 footer .section_2 .fa{
 	color: firebrick;
+}
+/*---------------------------MEDIA QUERIES-----------------------*/
+@media only screen and (max-width: 890px){
+	
 }
