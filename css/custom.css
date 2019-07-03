@@ -307,6 +307,11 @@ footer .section_2 .fa{
     margin: 0;
 	}
 }
+@media only screen and (max-width: 580px){
+	.header .main_menu a{
+		padding-right: 15px;
+	}
+}
 @media only screen and (max-width: 420px){
 	.hp_banner h1{
 		text-align: center;
@@ -335,7 +340,16 @@ footer .section_2 .fa{
 	}
 }
 @media only screen and (max-width: 380px){
+	.header .main_menu a{
+		padding-right: 12px;
+	}
 	.gallery .col-md-4 {
     width: 32.5%;
+	}
+}
+@media only screen and (max-width: 320px){
+	.header .main_menu a{
+		padding-right: 7px;
+		font-size: 15px;
 	}
 }
