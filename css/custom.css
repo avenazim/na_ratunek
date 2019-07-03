@@ -1,3 +1,6 @@
+/*{
+	border: 1px solid black;
+}*/
 /*-----------------------------FONTS---------------------------*/
 h1{
 	font-size: 36px;
@@ -68,19 +71,25 @@ p, li{
 	background-color: #30c52c;
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
 }
-.btn_contact_form {
-    color: #a90000;
+.btn_contact_form{
     background-color: white;
     border-radius: 5px;
     border: none;
     height: 3em;
-    font-weight: 700;
     width: 35%;
     margin-bottom: 35px;
 }
+.btn_contact_form a{
+    color: #a90000;
+    font-weight: 700;
+    text-decoration: none;
+}
 .btn_contact_form:hover{
-	color: lightsalmon;
 	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.btn_contact_form a:hover{
+	color: crimson;
+	text-decoration: none;
 }
 /*-----------------------------GENERAL CLASSES------------------*/
 .active_text{
@@ -139,11 +148,10 @@ p, li{
 }
 
 /*-----------------------------CONTENT---------------------------*/
-.cooperation{
-	background-image: url("C:/Users/Ewa/Desktop/na ratunek website/nowa_strona/img/eu.jpg");
-	background-repeat: no-repeat;
-	background-position-x: center;
-	height: 75px;
+.cooperation img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
 }
 /*-----------------------------O-FIRMIE--------------------------*/
 .pg_banner{
@@ -159,6 +167,7 @@ p, li{
 }
 .explanation .section_2.funder_name h3{
 	text-align: center;
+
 }
 .explanation .section_3.funder_photo img{
     width: 100%;
@@ -265,7 +274,67 @@ footer .section_2 h6{
 footer .section_2 .fa{
 	color: firebrick;
 }
-/*---------------------------MEDIA QUERIES-----------------------*/
-@media only screen and (max-width: 890px){
-	
+/*-----------------------------FOOTER---------------------------*/
+@media only screen and (max-width: 1025px){
+	.offer{
+		min-height: 550px;
+	}
+}
+@media only screen and (max-width: 920px){
+	footer .section_1 {
+    background: linear-gradient(77deg, rgba(195,13,13,1) 0%, rgba(244,243,243,1) 100%);
+	}
+	footer .section_1 h6, h4, p, a{
+		text-align: center;
+	}
+	footer .btn_contact_form{
+		margin: 0 auto;
+		display: block;
+	}
+	.explanation .section_3 .certificate, .signature {
+    text-align: center;
+	}
+	.offer {
+    min-height: auto;
+    padding: 15px;
+    margin: 5%;
+    width: auto;
+	}
+	.gallery .col-md-4 {
+    width: 32.9%;
+    display: inline-block;
+    margin: 0;
+	}
+}
+@media only screen and (max-width: 420px){
+	.hp_banner h1{
+		text-align: center;
+	}
+	.hp_banner h5{
+		text-align: justify;
+	}
+	.hp_banner button{
+		margin: 20px auto;
+		display: block;
+	}
+	.explanation .section_3.funder_photo img{
+		margin: 20px 0;
+	}
+	footer .btn_contact_form{
+		width: 70%;
+	}
+	footer .ft_2 .link{
+		color: white;
+	}
+	.gallery .col-md-4 {
+    width: 32.7%;
+	}
+	footer .section_2 h6 {
+    font-size: 9px !important;
+	}
+}
+@media only screen and (max-width: 380px){
+	.gallery .col-md-4 {
+    width: 32.5%;
+	}
 }
