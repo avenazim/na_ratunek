@@ -347,6 +347,11 @@ footer .section_2 .fa{
     width: 32.5%;
 	}
 }
+@media only screen and (max-width: 360px){
+	.header .main_menu a{
+		padding-right: 9px;
+	}
+}
 @media only screen and (max-width: 320px){
 	.header .main_menu a{
 		padding-right: 7px;
