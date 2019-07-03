@@ -151,7 +151,7 @@ p, li{
 .cooperation img {
     margin: 0 auto;
     display: block;
-    max-width: 100% !important;
+    max-width: 100%;
 }
 /*-----------------------------O-FIRMIE--------------------------*/
 .pg_banner{
@@ -186,6 +186,7 @@ p, li{
 .certificate img {
     margin: 0 auto;
     display: inherit;
+    max-width: 100%;
 }
 /*-----------------------------OFERTA--------------------------*/
 .offer {
